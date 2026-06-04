@@ -1,0 +1,10 @@
+base_url: "http://127.0.0.1:8000"
+default_headers:
+  Content-Type: "application/json"
+test_user:
+  sender:
+    mobile: "18250860000"
+    password: "123456"
+  receiver:
+      mobile: "18250860001"
+      password: "123456"

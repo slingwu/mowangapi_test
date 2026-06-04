@@ -1,0 +1,20 @@
+- title: 正常发送文本消息
+  request:
+    to_user_id: 1002
+    msg_type: "text"
+    content: "下班一起去吃烤鱼啊"
+  expected:
+      code: 0
+      msg: "success"
+
+- title: 消息内容为空
+  request:
+    to_user_id: 1002
+    msg_type: "text"
+    content: ""
+  expected:
+    code: 1012
+    msg: "content is required"
+
+
+

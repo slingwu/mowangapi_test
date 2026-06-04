@@ -1,0 +1,7 @@
+- title: android发送web同步成功
+  request:
+    device_type: "web"
+    last_msg_id: "msg_000000"
+  expected:
+    code: 0
+    msg: "success"

@@ -1,0 +1,7 @@
+pytest==8.3.2
+requests==2.32.3
+PyYAML==6.0.2
+jsionpath-ng==1.6.1
+fastapi=0.115.0
+uvicorn=0.30.6
+allure-pytest==2.13.5

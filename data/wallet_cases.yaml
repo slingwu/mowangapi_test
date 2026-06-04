@@ -1,0 +1,22 @@
+- title: 正常转账
+  request:
+    to_user_id: 1002
+    amount: 88.8
+    remark: "转账备注啊"
+  expected:
+    code: 0
+    msg: "success"
+
+- title: 转账金额非法
+  request:
+    to_user_id: 1002
+    amount: -1
+    remark: "转账备注啊"
+  expected:
+    code: 1001
+    msg: "转账金额非法"
+
+
+
+
+
